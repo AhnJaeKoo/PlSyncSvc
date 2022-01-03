@@ -1,0 +1,75 @@
+plugins {
+	id 'org.springframework.boot' version '2.5.3'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+}
+
+group = 'com.enuri.PlSyncSvc'
+//version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '15'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	jcenter()
+	maven { url 'http://192.168.213.82:8083/nexus/content/groups/public/' }
+}
+
+ext {
+	set('springCloudVersion', "2020.0.3")
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-batch'
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+	implementation 'org.springframework.boot:spring-boot-starter-tomcat'
+
+	implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
+	implementation 'org.springframework.cloud:spring-cloud-config-client'
+	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+	implementation 'org.springframework.cloud:spring-cloud-sleuth-zipkin'
+    implementation 'org.springframework.cloud:spring-cloud-starter-sleuth'
+
+	implementation 'org.apache.phoenix:phoenix-queryserver-client:5.0.0-HBase-2.0'
+
+	implementation ('org.apache.hive:hive-jdbc:1.2.1') {
+		exclude group: 'org.eclipse.jetty.aggregate'
+	}
+	implementation 'com.sun.jersey.contribs:jersey-apache-client4:1.19.4'
+	implementation 'org.apache.hadoop:hadoop-common:3.3.1'
+
+	//implementation 'com.impetus.kundera.client:kundera-hbase:3.13'
+	compileOnly 'javax:javaee-api:8.0.1'
+	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'	// jsp 인식
+	//implementation 'org.apache.commons:commons-collections4:4.4'	// ListUtils.partition 사용위해
+
+	compileOnly 'org.projectlombok:lombok'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	annotationProcessor 'org.projectlombok:lombok'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	implementation 'com.github.ben-manes.caffeine:caffeine:3.0.2'
+
+	compile 'com.enuri.gm.common:groupmatching-common:1.5.20211214.155519-SNAPSHOT'
+}
+
+dependencyManagement {
+	imports {
+		mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+	}
+}
+
+test {
+	useJUnitPlatform()
+}

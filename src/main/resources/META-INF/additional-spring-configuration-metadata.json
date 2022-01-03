@@ -1,0 +1,462 @@
+{"properties": [
+  {
+    "name": "db.type",
+    "type": "java.lang.String",
+    "description": "A description for 'db.type'"
+  },
+  {
+    "name": "svc.id",
+    "type": "java.lang.String",
+    "description": "A description for 'service.id'"
+  },
+  {
+    "name": "spring.data-source-config.main.jpa.property.hibernate.database",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.main.jpa.property.hibernate.database'"
+  },
+  {
+    "name": "spring.data-source-config.main.jpa.property.hibernate.dialect",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.main.jpa.property.hibernate.dialect'"
+  },
+  {
+    "name": "spring.data-source-config.main.jpa.property.hibernate.show_sql",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.main.jpa.property.hibernate.show_sql'"
+  },
+  {
+    "name": "spring.data-source-config.main.jpa.property.hibernate.open-in-view",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.main.jpa.property.hibernate.open-in-view'"
+  },
+  {
+    "name": "spring.data-source-config.main.jpa.property.hibernate.ddl-auto",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.main.jpa.property.hibernate.ddl-auto'"
+  },
+  {
+    "name": "spring.data-source-config.main.jpa.property.hibernate.physical_naming_strategy",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.main.jpa.property.hibernate.physical_naming_strategy'"
+  },
+  {
+    "name": "spring.data-source-config.main.jpa.property.hibernate.implicit_naming_strategy",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.main.jpa.property.hibernate.implicit_naming_strategy'"
+  },
+  {
+    "name": "spring.data-source-config.main.datasource.hikari.jdbc-url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.main.datasource.hikari.jdbc-url'"
+  },
+  {
+    "name": "spring.data-source-config.main.datasource.hikari.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.main.datasource.hikari.driver-class-name'"
+  },
+  {
+    "name": "spring.data-source-config.main.datasource.hikari.username",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.main.datasource.hikari.username'"
+  },
+  {
+    "name": "spring.data-source-config.main.datasource.hikari.password",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.main.datasource.hikari.password'"
+  },
+  {
+    "name": "spring.data-source-config.main.datasource.hikari.maximum-pool-size",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.main.datasource.hikari.maximum-pool-size'"
+  },
+  {
+    "name": "spring.data-source-config.main.datasource.hikari.minimum-idle",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.main.datasource.hikari.minimum-idle'"
+  },
+  {
+    "name": "spring.data-source-config.main.datasource.hikari.connection-timeout",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.main.datasource.hikari.connection-timeout'"
+  },
+  {
+    "name": "spring.data-source-config.main.datasource.hikari.max-lifetime",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.main.datasource.hikari.max-lifetime'"
+  },
+  {
+    "name": "spring.data-source-config.main.jpa.property.hibernate.format_sql",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.main.jpa.property.hibernate.format_sql'"
+  },
+  {
+    "name": "spring.data-source-config.main.jpa.property.hibernate.use_sql_comments",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.main.jpa.property.hibernate.use_sql_comments'"
+  },
+  {
+    "name": "spring.data-source-config.eloc.jpa.property.hibernate.database",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.eloc.jpa.property.hibernate.database'"
+  },
+  {
+    "name": "spring.data-source-config.eloc.jpa.property.hibernate.dialect",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.eloc.jpa.property.hibernate.dialect'"
+  },
+  {
+    "name": "spring.data-source-config.eloc.jpa.property.hibernate.show_sql",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.eloc.jpa.property.hibernate.show_sql'"
+  },
+  {
+    "name": "spring.data-source-config.eloc.jpa.property.hibernate.open-in-view",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.eloc.jpa.property.hibernate.open-in-view'"
+  },
+  {
+    "name": "spring.data-source-config.eloc.jpa.property.hibernate.ddl-auto",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.eloc.jpa.property.hibernate.ddl-auto'"
+  },
+  {
+    "name": "spring.data-source-config.eloc.jpa.property.hibernate.physical_naming_strategy",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.eloc.jpa.property.hibernate.physical_naming_strategy'"
+  },
+  {
+    "name": "spring.data-source-config.eloc.jpa.property.hibernate.implicit_naming_strategy",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.eloc.jpa.property.hibernate.implicit_naming_strategy'"
+  },
+  {
+    "name": "spring.data-source-config.eloc.datasource.hikari.jdbc-url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.eloc.datasource.hikari.jdbc-url'"
+  },
+  {
+    "name": "spring.data-source-config.eloc.datasource.hikari.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.eloc.datasource.hikari.driver-class-name'"
+  },
+  {
+    "name": "spring.data-source-config.eloc.datasource.hikari.username",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.eloc.datasource.hikari.username'"
+  },
+  {
+    "name": "spring.data-source-config.eloc.datasource.hikari.password",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.eloc.datasource.hikari.password'"
+  },
+  {
+    "name": "spring.data-source-config.eloc.datasource.hikari.maximum-pool-size",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.eloc.datasource.hikari.maximum-pool-size'"
+  },
+  {
+    "name": "spring.data-source-config.eloc.datasource.hikari.minimum-idle",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.eloc.datasource.hikari.minimum-idle'"
+  },
+  {
+    "name": "spring.data-source-config.eloc.datasource.hikari.connection-timeout",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.eloc.datasource.hikari.connection-timeout'"
+  },
+  {
+    "name": "spring.data-source-config.eloc.datasource.hikari.max-lifetime",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.eloc.datasource.hikari.max-lifetime'"
+  },
+  {
+    "name": "spring.data-source-config.eloc.jpa.property.hibernate.format_sql",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.eloc.jpa.property.hibernate.format_sql'"
+  },
+  {
+    "name": "spring.data-source-config.eloc.jpa.property.hibernate.use_sql_comments",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.eloc.jpa.property.hibernate.use_sql_comments'"
+  },
+  {
+    "name": "spring.data-source-config.main.datasource.hikari.platform",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.main.datasource.hikari.platform'"
+  },
+  {
+    "name": "spring.data-source-config.eloc.datasource.hikari.platform",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.eloc.datasource.hikari.platform'"
+  },
+  {
+    "name": "spring.batch.chunk-size",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.batch.chunk-size'"
+  },
+  {
+    "name": "spring.data-source-config.batch.jpa.property.hibernate.database",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.batch.jpa.property.hibernate.database'"
+  },
+  {
+    "name": "spring.data-source-config.batch.jpa.property.hibernate.dialect",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.batch.jpa.property.hibernate.dialect'"
+  },
+  {
+    "name": "spring.data-source-config.batch.jpa.property.hibernate.show_sql",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.batch.jpa.property.hibernate.show_sql'"
+  },
+  {
+    "name": "spring.data-source-config.batch.jpa.property.hibernate.format_sql",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.batch.jpa.property.hibernate.format_sql'"
+  },
+  {
+    "name": "spring.data-source-config.batch.jpa.property.hibernate.use_sql_comments",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.batch.jpa.property.hibernate.use_sql_comments'"
+  },
+  {
+    "name": "spring.data-source-config.batch.jpa.property.hibernate.ddl-auto",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.batch.jpa.property.hibernate.ddl-auto'"
+  },
+  {
+    "name": "spring.data-source-config.batch.jpa.property.hibernate.physical_naming_strategy",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.batch.jpa.property.hibernate.physical_naming_strategy'"
+  },
+  {
+    "name": "spring.data-source-config.batch.jpa.property.hibernate.implicit_naming_strategy",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.batch.jpa.property.hibernate.implicit_naming_strategy'"
+  },
+  {
+    "name": "spring.data-source-config.batch.datasource.hikari.jdbc-url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.batch.datasource.hikari.jdbc-url'"
+  },
+  {
+    "name": "spring.data-source-config.batch.datasource.hikari.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.batch.datasource.hikari.driver-class-name'"
+  },
+  {
+    "name": "spring.data-source-config.batch.datasource.hikari.username",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.batch.datasource.hikari.username'"
+  },
+  {
+    "name": "spring.data-source-config.batch.datasource.hikari.password",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.batch.datasource.hikari.password'"
+  },
+  {
+    "name": "spring.data-source-config.batch.datasource.hikari.maximum-pool-size",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.batch.datasource.hikari.maximum-pool-size'"
+  },
+  {
+    "name": "spring.data-source-config.batch.datasource.hikari.minimum-idle",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.batch.datasource.hikari.minimum-idle'"
+  },
+  {
+    "name": "spring.data-source-config.batch.datasource.hikari.connection-timeout",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.batch.datasource.hikari.connection-timeout'"
+  },
+  {
+    "name": "spring.data-source-config.batch.datasource.hikari.max-lifetime",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.batch.datasource.hikari.max-lifetime'"
+  },
+  {
+    "name": "spring.data-source-config.diff.jpa.property.hibernate.database",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.diff.jpa.property.hibernate.database'"
+  },
+  {
+    "name": "spring.data-source-config.diff.jpa.property.hibernate.dialect",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.diff.jpa.property.hibernate.dialect'"
+  },
+  {
+    "name": "spring.data-source-config.diff.jpa.property.hibernate.show_sql",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.diff.jpa.property.hibernate.show_sql'"
+  },
+  {
+    "name": "spring.data-source-config.diff.jpa.property.hibernate.format_sql",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.diff.jpa.property.hibernate.format_sql'"
+  },
+  {
+    "name": "spring.data-source-config.diff.jpa.property.hibernate.use_sql_comments",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.diff.jpa.property.hibernate.use_sql_comments'"
+  },
+  {
+    "name": "spring.data-source-config.diff.jpa.property.hibernate.ddl-auto",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.diff.jpa.property.hibernate.ddl-auto'"
+  },
+  {
+    "name": "spring.data-source-config.diff.jpa.property.hibernate.physical_naming_strategy",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.diff.jpa.property.hibernate.physical_naming_strategy'"
+  },
+  {
+    "name": "spring.data-source-config.diff.jpa.property.hibernate.implicit_naming_strategy",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.diff.jpa.property.hibernate.implicit_naming_strategy'"
+  },
+  {
+    "name": "spring.data-source-config.diff.datasource.hikari.jdbc-url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.diff.datasource.hikari.jdbc-url'"
+  },
+  {
+    "name": "spring.data-source-config.diff.datasource.hikari.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.diff.datasource.hikari.driver-class-name'"
+  },
+  {
+    "name": "spring.data-source-config.diff.datasource.hikari.username",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.diff.datasource.hikari.username'"
+  },
+  {
+    "name": "spring.data-source-config.diff.datasource.hikari.password",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.diff.datasource.hikari.password'"
+  },
+  {
+    "name": "spring.data-source-config.diff.datasource.hikari.maximum-pool-size",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.diff.datasource.hikari.maximum-pool-size'"
+  },
+  {
+    "name": "spring.data-source-config.diff.datasource.hikari.minimum-idle",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.diff.datasource.hikari.minimum-idle'"
+  },
+  {
+    "name": "spring.data-source-config.diff.datasource.hikari.connection-timeout",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.diff.datasource.hikari.connection-timeout'"
+  },
+  {
+    "name": "spring.data-source-config.diff.datasource.hikari.max-lifetime",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.diff.datasource.hikari.max-lifetime'"
+  },
+  {
+    "name": "sync.thread",
+    "type": "java.lang.String",
+    "description": "A description for 'sync.thread'"
+  },
+  {
+    "name": "spring.data-source-config.pgpl.jpa.property.hibernate.database",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.pgpl.jpa.property.hibernate.database'"
+  },
+  {
+    "name": "spring.data-source-config.pgpl.jpa.property.hibernate.dialect",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.pgpl.jpa.property.hibernate.dialect'"
+  },
+  {
+    "name": "spring.data-source-config.pgpl.jpa.property.hibernate.show_sql",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.pgpl.jpa.property.hibernate.show_sql'"
+  },
+  {
+    "name": "spring.data-source-config.pgpl.jpa.property.hibernate.use_sql_comments",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.pgpl.jpa.property.hibernate.use_sql_comments'"
+  },
+  {
+    "name": "spring.data-source-config.pgpl.jpa.property.hibernate.format_sql",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.pgpl.jpa.property.hibernate.format_sql'"
+  },
+  {
+    "name": "spring.data-source-config.pgpl.jpa.property.hibernate.ddl-auto",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.pgpl.jpa.property.hibernate.ddl-auto'"
+  },
+  {
+    "name": "spring.data-source-config.pgpl.jpa.property.hibernate.physical_naming_strategy",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.pgpl.jpa.property.hibernate.physical_naming_strategy'"
+  },
+  {
+    "name": "spring.data-source-config.pgpl.jpa.property.hibernate.implicit_naming_strategy",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.pgpl.jpa.property.hibernate.implicit_naming_strategy'"
+  },
+  {
+    "name": "spring.data-source-config.pgpl.datasource.hikari.jdbc-url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.pgpl.datasource.hikari.jdbc-url'"
+  },
+  {
+    "name": "spring.data-source-config.pgpl.datasource.hikari.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.pgpl.datasource.hikari.driver-class-name'"
+  },
+  {
+    "name": "spring.data-source-config.pgpl.datasource.hikari.username",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.pgpl.datasource.hikari.username'"
+  },
+  {
+    "name": "spring.data-source-config.pgpl.datasource.hikari.password",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.pgpl.datasource.hikari.password'"
+  },
+  {
+    "name": "spring.data-source-config.pgpl.datasource.hikari.maximum-pool-size",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.pgpl.datasource.hikari.maximum-pool-size'"
+  },
+  {
+    "name": "spring.data-source-config.pgpl.datasource.hikari.minimum-idle",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.pgpl.datasource.hikari.minimum-idle'"
+  },
+  {
+    "name": "spring.data-source-config.pgpl.datasource.hikari.connection-timeout",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.pgpl.datasource.hikari.connection-timeout'"
+  },
+  {
+    "name": "spring.data-source-config.pgpl.datasource.hikari.max-lifetime",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.pgpl.datasource.hikari.max-lifetime'"
+  },
+  {
+    "name": "spring.data-source-config.hbase.datasource.jdbc-url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.hbase.datasource.jdbc-url'"
+  },
+  {
+    "name": "spring.data-source-config.hbase.datasource.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.hbase.datasource.driver-class-name'"
+  },
+  {
+    "name": "spring.data-source-config.hbase.datasource.username",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.hbase.datasource.username'"
+  },
+  {
+    "name": "spring.data-source-config.hbase.datasource.password",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.data-source-config.hbase.datasource.password'"
+  }
+]}

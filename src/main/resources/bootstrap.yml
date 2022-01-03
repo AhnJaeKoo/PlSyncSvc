@@ -1,0 +1,13 @@
+spring:
+  config:
+    #name: plSyncSvc  #이거 안먹음..버그    import:    - "optional:configserver:http://192.168.213.82:8084/conf"
+    
+  #이름때문에 옛날방식 씀
+  cloud:    config:      name: plSyncSvc
+        
+encrypt:
+  key: groupmatchingmsa # 암호화 키..application.yml에서는 구동시점 차이로 안된다.
+  
+server:
+  servlet:
+    context-path: /plSyncSvc
