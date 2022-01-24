@@ -6,7 +6,7 @@ spring:
   cloud:    config:      name: plSyncSvc
         
 encrypt:
-  key: groupmatchingmsa # 암호화 키..application.yml에서는 구동시점 차이로 안된다.
+  key: # 암호화 키..application.yml에서는 구동시점 차이로 안된다.
   
 server:
   servlet:
